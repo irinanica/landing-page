@@ -1,0 +1,295 @@
+/* Color Palette */
+
+/* 
+#F8E9A1
+#F76C6C
+#A8D0E6
+#374785
+#24305E 
+*/
+
+/* The navigation bar */
+
+.navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: rgba(90, 10, 10, 0.473);
+    color: black;
+}
+
+.bg-pink {
+    background-color: rgba(53, 15, 15, 0.925);
+    color: #EEE3D9;
+}
+
+.carousel-inner, .carousel-item, .carousel-item img {
+    height: 100vh;
+}
+
+a.navbar-brand.title-btn {
+    color: #EEE3D9;
+}
+
+.navbar {
+    z-index: 100;
+}
+
+/* ----- Section 1 -----*/
+
+.section-1 {
+    position: relative;
+}
+
+.introText {
+    display: flex;
+    flex-direction: column;
+    color: #24305E;
+    padding: 1em;
+    top: 20%;
+    position: absolute;
+    margin: 10%;
+    margin-left: 10%;
+    color: #F6F5F8;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.title-section-1 {
+    font-size: 40px;
+}
+
+.button-section-1 {
+    padding: 0.5em;
+    background-color: rgba(246, 245, 248, 0.5);
+    border-radius: 0;
+    border-style: none;
+    color: #29202A;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button-section-1:hover {
+    opacity: 0.7;
+}
+
+.paragraph-section-1 {
+    display: none;
+}
+
+.intro-pic {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+/* ----- Section 2 -----*/
+
+.paragraph-section-2 {
+    padding: 0 10%;
+    text-align: right;
+    margin-top: 5%;
+    color: #632F2F;
+}
+
+.title-section-2 {
+    color: #632F2F;
+    text-align: right;
+    padding: 0 15%;
+    margin-top: 10%;
+}
+
+.section-2 {
+    display: inline-block;
+    width: 49.78%;
+    position: relative;
+    left: 1px;
+    height: 100%;
+}
+
+.section-2.left {
+    vertical-align: top;
+    margin-top: 5%;
+}
+
+.whole-section-2 {
+    height: 100vh;
+    background-color: #F6F5F8;
+}
+
+.about-img {
+    width: 100%;
+    height: 100%;
+    vertical-align: baseline;
+}
+
+/* ----- Section 3 -----*/
+
+.service-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.material-icons {
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    color: #29202A;
+}
+
+.section-3 {
+    background: #F2C995;
+    padding: 5%;
+    height: 100%;
+}
+
+#title-section-3 {
+    margin-bottom: 5%;
+    text-align: center;
+    color: #29202A;
+}
+
+#services {
+    display: block;
+}
+
+.custom-card {
+    width: 20%;
+    margin: 20px 2.5%;
+    display: inline-block;
+}
+
+/* ----- Section 4 -----*/
+
+.section-4 {
+    background: #F6F5F8;
+    padding: 5%;
+    text-align: center;
+    height: 100vh;
+    color: #29202A;
+}
+
+#title-section-4 {
+    margin-bottom: 5%;
+}
+
+.avatar {
+    border-radius: 50%;
+    max-width: 15%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+/* ----- Section 5 -----*/
+
+.contact {
+    background-color: #E9B78B;
+}
+
+.text-contact {
+    padding: 0 10%;
+    color: #29202A;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    width: 49.78%;
+    position: relative;
+    left: 1px;
+    height: 100%;
+    margin-top: 5%;
+}
+
+.mapouter {
+    text-align: right;
+    height: 350px;
+    width: 500px;
+    display: inline-block;
+    margin: 5%;
+    vertical-align: baseline;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 350px;
+    width: 500px;
+}
+
+/* Social Media */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.social-media-text {
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/* ----- Footer -----*/
+
+footer {
+    background-color: rgb(53, 15, 15);
+    color: #F6F5F8;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 1024px) {
+    #navbarNav {
+        position: relative !important;
+    }
+    #navbarNav ul {
+        position: absolute !important;
+        top: -1.2rem;
+        right: 1rem;
+    }
+}
